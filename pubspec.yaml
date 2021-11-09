@@ -55,6 +55,7 @@ flutter:
   assets:
     - assets/bg.jpg
     - assets/bgCard.jpeg
+    - assets/stars.png
   
   fonts:
     - family: GenshinFont

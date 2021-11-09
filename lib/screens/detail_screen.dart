@@ -117,6 +117,12 @@ class _DetailScreenState extends State<DetailScreen> {
                     Container(
                       decoration: BoxDecoration(
                           color: _colorInfo,
+                          image: DecorationImage(
+                            image: AssetImage('assets/stars.png'),
+                            fit: BoxFit.contain,
+                            repeat: ImageRepeat.repeat
+                            
+                          ),
                           borderRadius: BorderRadius.horizontal(
                             left: Radius.circular(30),
                             right: Radius.circular(30),
